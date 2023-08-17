@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Roboto-light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+.menu{
+    background-color: #28a745;
+}
+.footer{
+    background-color: #28a745;
+}
+.card-title{
+    font-family: Roboto-light;
+    color: #212529;
+}
+
+.card-text{
+    font-family: Roboto-light;
+    color: #707070;
+}
+
+.precio{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.precio1{
+    color: #707070;
+    font-family: Roboto-light;
+}
+
+.precio2{
+    font-family: Roboto-Medium;
+}
+
+.btn{
+    font-family: Roboto-Medium;
+    color: #212529;
+}
+
+.form-control{
+    font-family: Roboto-light;
+    color: #707070;
+}

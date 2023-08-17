@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px auto;
+    width: 1280px;
+}
+#header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:Raleway;
+    font-size: 50px;
+    
+}
+
+#bg-header{
+    
+    background-image: url(../img/bg-header.jpg);
+    width: 100%;
+    height: 727px;
+    background-repeat: no-repeat;
+    background-size: 100% 727px;
+    
+}
+
+#wiki{
+    width: 100%;
+    background-color: black;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+
+#wiki img{
+    width: 399px;
+    height: 237px;
+    
+}
+
+#texto{
+    width: 475px;
+    height: 197px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+#caracteristicas{
+    width: 1280px;
+    height: 348px;
+    background-color:#1E1A13 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#caracteristicas h1{
+    color: white;
+    font-family: Raleway;
+    font-size: 40px;
+}
+
+#carac{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    
+}
+
+#carac .icon{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#carac p{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Raleway;
+}
+
+#images{
+    background-color: black;
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+#images img{
+    width: 316px;
+    height: 202px;
+
+}
+
+
+#footer{
+    width: 1280px;
+    height: 102px;
+    background-color: #1E1A13;
+    text-align: center;
+    
+}
+
+#footer a{
+    
+    line-height: 102px;
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+#footer a:visited{
+    text-decoration: none;
+}
