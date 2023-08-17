@@ -5,10 +5,10 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/thorss.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  
 }
 
 /* Mis trabajos */
@@ -36,4 +36,9 @@ body {
     width: 100px;
   }
 
+}
+
+.text-deco{
+  text-decoration: none;
+  color: white;
 }
